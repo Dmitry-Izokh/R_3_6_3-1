@@ -1,4 +1,4 @@
-﻿<Window x:Class="R_3_6_3_1.MainView"
+﻿<Window x:Class="R_3_6_3.MainView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 

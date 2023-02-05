@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace R_3_6_3_1
+namespace R_3_6_3
 {
     /// <summary>
     /// Логика взаимодействия для MainView.xaml

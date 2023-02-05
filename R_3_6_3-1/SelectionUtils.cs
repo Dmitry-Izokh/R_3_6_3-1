@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace R_3_6_3_1
+namespace R_3_6_3
 {
     class SelectionUtils
     {

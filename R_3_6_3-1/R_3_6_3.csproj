@@ -7,8 +7,8 @@
     <ProjectGuid>{3069F423-B8DC-4730-BDD6-B11C56340746}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>R_3_6_3_1</RootNamespace>
-    <AssemblyName>R_3_6_3-1</AssemblyName>
+    <RootNamespace>R_3_6_3</RootNamespace>
+    <AssemblyName>R_3_6_3</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -75,7 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="R_3_6_3-1.addin" />
+    <None Include="R_3_6_3.addin" />
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainView.xaml">
