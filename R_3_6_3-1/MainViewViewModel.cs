@@ -42,17 +42,17 @@ namespace R_3_6_3
             // Переменная обращается к созданному классу,
             // прописывающему логику создания точки.
             XYZ startpoint = Points[0];
-            XYZ endpoint = Points[0];
+            XYZ endpoint = Points[1];
 
             //Определаю расстояние между точками копии по осям
-            int ratioX = (int)(startpoint.X / CopyCount - endpoint.X / CopyCount);
-            int ratioY = (int)(startpoint.Y / CopyCount - endpoint.Y / CopyCount);
-            int ratioZ = (int)(startpoint.Z / CopyCount - endpoint.Z / CopyCount);
+            int ratioX = (int)(endpoint.X / CopyCount - startpoint.X / CopyCount);
+            int ratioY = (int)(endpoint.Y / CopyCount - startpoint.Y / CopyCount);
+            int ratioZ = (int)(endpoint.Z / CopyCount - startpoint.Z / CopyCount);
 
             // создаю копиии экземпляров семейст в указанных точках, для чего создаю переменную точки.
             for (int i=1; i< CopyCount+1; i++)
             {
-                var instancePoint = new XYZ(ratioX * i, ratioY * i, ratioZ * i);
+                var instancePoint = startpoint + new XYZ(ratioX * i, ratioY * i, ratioZ * i);
                 FamilyInstanceUtils.CreateFamilyInstance(_commandData, SelectedFurniture, instancePoint);
             }
             RaiseCloseRequest();

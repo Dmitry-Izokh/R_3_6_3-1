@@ -19,7 +19,7 @@ namespace R_3_6_3
             List<XYZ> points = new List<XYZ>();
 
             // Пока количество точек меньше 1 выполнять создание точек.
-            while (points.Count < 1)
+            while (points.Count < 2)
             {
                 XYZ pickedPoint = null;
                 try
